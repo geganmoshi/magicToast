@@ -1,21 +1,3 @@
-package com.cupshe.cupshe.core.utils;
-
-import android.animation.Animator;
-import android.animation.ObjectAnimator;
-import android.graphics.Typeface;
-import android.os.Handler;
-import android.os.Message;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.ViewParent;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
-import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
-import com.cupshe.cupshe.R;
-import java.lang.ref.WeakReference;
-
 public class MagicToast {
     private int residenceTime = 0;
     private View view;
